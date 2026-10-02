@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>K's Build Day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#faf6f1; --card:#fff; --ink:#2b2321; --muted:#8a7b74; --gold:#b8895a; --blush:#f3e3dc; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:radial-gradient(circle at 20% 0%, var(--blush), var(--bg) 60%); color:var(--ink);
+         font-family:Inter, system-ui, sans-serif; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px 16px; }
+  main { max-width:440px; width:100%; text-align:center; }
+  .bottle { font-size:48px; animation:float 3s ease-in-out infinite; }
+  @keyframes float { 50% { transform:translateY(-8px); } }
+  .kicker { letter-spacing:.25em; text-transform:uppercase; font-size:12px; color:var(--gold); margin:16px 0 8px; }
+  h1 { font-family:"Cormorant Garamond", serif; font-weight:600; font-size:48px; line-height:1.05; }
+  .date { color:var(--muted); margin:12px 0 32px; font-style:italic; font-family:"Cormorant Garamond", serif; font-size:20px; }
+  ol { list-style:none; padding:0; display:grid; gap:12px; text-align:left; }
+  li { background:var(--card); border-radius:16px; padding:18px 20px; box-shadow:0 6px 24px rgba(80,50,30,.08);
+       display:flex; gap:16px; align-items:center; font-weight:500; }
+  li span { font-family:"Cormorant Garamond", serif; color:var(--gold); font-size:28px; width:24px; }
+  footer { margin-top:32px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="bottle">✨🧴✨</div>
+  <p class="kicker">Coming soon</p>
+  <h1>K's Build Day</h1>
+  <p class="date">October 2, 2026</p>
+  <ol>
+    <li><span>1</span>Find My Scent Quiz + Spin the Wheel</li>
+    <li><span>2</span>My Money Tracker</li>
+    <li><span>3</span>"Is It Authentic?" Trust Page</li>
+  </ol>
+  <footer>Made with Claude 💛</footer>
+</main>
+</body>
+</html>
